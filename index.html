@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id=content-wrapper>
+        <header>
+        <h1>GitHub User Repo Search</h1>
+        <form id="user-repos">
+            <label for="user-name">What is the GitHub Username for the user repos you want to see?: </label>
+            <input type="text" name="user-name" id="user-name" required>
+            <button type="submit" id="form-submit">Submit</button>
+        </form>
+        </header>
+        
+        <main class="hidden">
+            <!-- User repos will show here. -->
+        </main>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

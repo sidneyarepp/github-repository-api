@@ -1,0 +1,42 @@
+#content-wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: rgb(225, 245, 255);
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+}
+
+header {
+    grid-column: span 5;
+    text-align: center;
+    background-color: rgb(45, 154, 187);
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    grid-column: span 5;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+main {
+    grid-column: span 5;
+    text-align: center;
+    background-color: rgb(45, 154, 187);
+    color: rgb(255, 255, 255);
+}
